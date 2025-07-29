@@ -11,12 +11,17 @@ A simple Express.js backend that supports registration, login, and basic product
 - dotenv
 
 ## Project Structure
-.
-├── node_modules/
-├── .env
-├── package.json
-├── server.js
 
+```
+src/
+├── components/ # Reusable UI components (e.g., Navbar)
+├── pages/ # Page components (Login, Register, Dashboard, etc.)
+├── utils/ # Helper functions or auth logic
+├── assets/ # Static files/images (optional)
+├── App.jsx
+├── main.jsx
+├── index.css
+```
 
 ## Endpoints Overview
 
